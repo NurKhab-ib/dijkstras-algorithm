@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Алгоритм Дейкстры</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="img/favicon.ico">
+</head>
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <h1>&nbsp;Визуализация алгоритма Дейкстры&nbsp;</h1>
+      <div class="header__lang">
+        <a href="eng.html"><img src="./img/eng.webp" alt="English"></a>
+      </div>
+    </header>
+    <main class="main">
+      <canvas id="canvas">
+        <img src="img/unused/01.png" id="1">
+        <img src="img/unused/02.png" id="2">
+        <img src="img/unused/03.png" id="3">
+        <img src="img/unused/04.png" id="4">
+        <img src="img/unused/05.png" id="5">
+        <img src="img/unused/06.png" id="6">
+        <img src="img/unused/07.png" id="7">
+
+        <img src="img/current/01.png" id="cur_1">
+        <img src="img/current/02.png" id="cur_2">
+        <img src="img/current/03.png" id="cur_3">
+        <img src="img/current/04.png" id="cur_4">
+        <img src="img/current/05.png" id="cur_5">
+        <img src="img/current/06.png" id="cur_6">
+        <img src="img/current/07.png" id="cur_7">
+
+        <img src="img/used/01.png" id="used_1">
+        <img src="img/used/02.png" id="used_2">
+        <img src="img/used/03.png" id="used_3">
+        <img src="img/used/04.png" id="used_4">
+        <img src="img/used/05.png" id="used_5">
+        <img src="img/used/06.png" id="used_6">
+        <img src="img/used/07.png" id="used_7">
+      </canvas>
+      <button id="continueButton" class="noselect">Начать</button>
+
+      <div class="main__container">
+        <div class="main__block">
+          <div class="main__block-title"><b>Матрица смежности<br>данного графа:</b></div>
+          <table class="table" id="matrix"></table>
+        </div>
+        <div class="main__block">
+          <div class="main__block-title"><b>Таблица дистанций:</b></div>
+          <table class="table" id="dist"></table>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      
+    </footer>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
