@@ -1,5 +1,5 @@
 # 🖥 Dijkstra's Algorithm Visualisation
-> 🌐 / **Russian** / **English**
+![](https://img.shields.io/badge/language-russian_&_english-005555)
 
 ## 🔗 [GitHub Pages](https://nurkhab-ib.github.io/dijkstras-algorithm/)
 
